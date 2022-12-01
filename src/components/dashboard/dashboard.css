@@ -1,0 +1,19 @@
+.dashboard{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: #ececec;
+}
+.dashboard .aside{
+    width: 25%;
+}
+.dashboard .content{
+    width: 58%;
+    /* background: red; */
+}
+.dashboard .storage{
+    width: 20%;
+    background: #eee;
+}
