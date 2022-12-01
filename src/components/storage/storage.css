@@ -1,0 +1,40 @@
+.storage_section{
+    width: 100%;
+}
+.storage_section h2{
+    color: #130f0fd2;
+    font-size: 20px;
+    padding: 2px 25px;
+}
+.storage_section .disk{
+    width: 80%;
+    border-radius: 5px;
+    margin: 5px 35px;
+    background: #3269ff0a;
+}
+.disk .upper h4{
+    margin-left: -10rem;
+}
+.disk .lower{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -0.5rem;
+}
+.disk .lower h4{
+    width: 100%;
+}
+.disk .lower .percentage{
+    width: 100%;
+    height: 5px;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    background: #0a6ed167;
+    border-radius: 5px;
+}
+.percentage .used{
+    width: 80%;
+    background: #0f79e4;
+    border-radius: 5px;
+    height: 5px;
+}

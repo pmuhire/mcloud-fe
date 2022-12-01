@@ -4,6 +4,8 @@ import './dashboard.css';
 import Navbar from '../navbar/navbar';
 import Favourites from '../favourites/favourites';
 import QuickAccess from '../quikaccess/QuickAccess';
+import RecentUpload from '../recentUploads/RecentUpload';
+import Storage from '../storage/Storage';
 
 export class Dashboard extends Component {
     render() {
@@ -16,9 +18,10 @@ export class Dashboard extends Component {
                    <Navbar />
                    <Favourites />
                    <QuickAccess />
+                   <RecentUpload />
                 </section>
                 <section className='storage'>
-                    storage
+                    <Storage />
                 </section>
             </div>
         )

@@ -13,10 +13,11 @@
 }
 .dashboard .content{
     margin-left: 25%;
+    height: auto;
     width: 55%;
-    height: 200vh;
     border-right: 1px solid #ccc;
-    /* background: red; */
+    scroll-behavior: smooth;
+    transition: all 0.3s ease;
 }
 .dashboard .storage{
     position: fixed;
@@ -25,5 +26,4 @@
     width: 20%;
     height: 100vh;
     background: #eee;
-    /* background: red; */
 }
