@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Sidebar from '../sidebar/sidebar';
 import './dashboard.css';
+import Navbar from '../navbar/navbar';
+import Favourites from '../favourites/favourites';
+import QuickAccess from '../quikaccess/QuickAccess';
 
 export class Dashboard extends Component {
     render() {
@@ -10,7 +13,9 @@ export class Dashboard extends Component {
                     <Sidebar />
                 </section>
                 <section className='content'>
-                   content
+                   <Navbar />
+                   <Favourites />
+                   <QuickAccess />
                 </section>
                 <section className='storage'>
                     storage

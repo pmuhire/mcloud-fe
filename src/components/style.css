@@ -36,7 +36,7 @@ img{
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: #a30000dc;
+    background: #006effe7;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,6 +44,7 @@ img{
     top: -0.4rem;
     right: 0.3rem;
     color: #fff;
+    border: 1px solid #fff;
 }
 
 

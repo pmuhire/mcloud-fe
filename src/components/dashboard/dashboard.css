@@ -8,12 +8,22 @@
 }
 .dashboard .aside{
     width: 25%;
+    height: 100vh;
+    position: fixed;
 }
 .dashboard .content{
-    width: 58%;
+    margin-left: 25%;
+    width: 55%;
+    height: 200vh;
+    border-right: 1px solid #ccc;
     /* background: red; */
 }
 .dashboard .storage{
+    position: fixed;
+    right: 0;
+    top: 0;
     width: 20%;
+    height: 100vh;
     background: #eee;
+    /* background: red; */
 }

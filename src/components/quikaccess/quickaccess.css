@@ -1,0 +1,23 @@
+.quick__access{
+    width: 100%;
+}
+.quick__access h2{
+    color: #130f0fd2;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+.quick__access .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.quick__access .cards .card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    line-height: 1rem;
+}
+.quick__access .card p{
+    margin-left: -3rem;
+}

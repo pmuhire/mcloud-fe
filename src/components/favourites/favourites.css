@@ -1,0 +1,62 @@
+.favourites{
+    width: 100%;
+}
+.favourites .view__all{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.view__all h2{
+    color: #130f0fd2;
+    font-size: 18px;
+}
+.view__all a{
+    text-decoration: none;
+    color: dodgerblue;
+    cursor: pointer;
+    padding-right: 10px;
+}
+.view__all a:hover{
+    text-decoration: underline;
+}
+
+.cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.cards .card{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    line-height: 1rem;
+}
+.card .upper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.upper p{
+    margin-left: -3.5rem;
+    color: #130f0fd2;
+}
+.card .lower{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 10px;
+}
+.lower h4{
+    color: #130f0fd2;
+    font-size: 16px;
+}
+.lower p{
+    padding-right: 10px;
+}
+
