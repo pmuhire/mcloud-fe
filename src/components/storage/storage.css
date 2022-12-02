@@ -38,3 +38,117 @@
     border-radius: 5px;
     height: 5px;
 }
+
+.detail_card{
+    width: 80%;
+    height: 70px;
+    border-radius: 5px;
+    margin: 5px 35px;
+    background: #3269ff07;
+    margin-bottom: 15px;
+}
+.detail_card .upper{
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 15% 80% 5%;
+}
+.upper .icon{
+    background: #41414115;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.upper .text{
+    margin-left: 0.5rem;
+}
+.upper .text h3{
+    margin-top: 0.5rem;
+    font-size: 16px;
+    color: #130f0fd2;
+}
+.upper .text h6{
+     margin-top: -0.7rem;
+     color: #130f0fd2;
+}
+
+.detail_card .lower{
+    width: 100%;
+    height: 30%;
+    /* background: red; */
+    position: relative;
+}
+.detail_card .lower .progres{
+    width: 95%;
+    height: 5px;
+    position: absolute;
+    left: 8px;
+    bottom: -5px;
+    background: #cccccc7e;
+    border-radius: 5px;
+}
+.lower .progres .covered{
+    height: 5px;
+    position: absolute;
+    border-radius: 5px;
+}
+.one{
+    width: 80%;
+    background: #ff00009f;
+}
+.two{
+    width: 50%;
+    background: #07b35dbd;
+}
+.three{
+    width: 90%;
+    background: #e08003e7;
+}
+.four{
+    width: 30%;
+    background: #8804e085;
+}
+
+.premium{
+    width: 90%;
+    height: 220px;
+    border-radius: 8px;
+    margin: 50px 20px;
+    background: #3269ff1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.premium img{
+    margin-top: -8rem;
+    width: 100px;
+    height: 100px;
+}
+.premium h2{
+    color: #130f0fd2;
+    font-size: 1.3rem;
+}
+.premium p{
+    text-align: center;
+    font-size: 14px;
+    margin: -0.5rem 10px;
+    color: #130f0fd2;
+}
+.premium button{
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    bottom: 30px;
+    color: #fff;
+    background: #0a7ef1da;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}

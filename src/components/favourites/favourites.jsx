@@ -67,6 +67,39 @@ function Favourites() {
                         <p>2.0GB Used</p>
                     </div>
                 </div>
+                <div className="card">
+                    <div className="upper">
+                        <FiFolder style={styles} />
+                        <p>Foto Pantai</p>
+                        <FiMoreVertical />
+                    </div>
+                    <div className="lower">
+                        <h4>245Files</h4>
+                        <p>2.0GB Used</p>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="upper">
+                        <FiFolder style={styles} />
+                        <p>Foto Pantai</p>
+                        <FiMoreVertical />
+                    </div>
+                    <div className="lower">
+                        <h4>245Files</h4>
+                        <p>2.0GB Used</p>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="upper">
+                        <FiFolder style={styles} />
+                        <p>Foto Pantai</p>
+                        <FiMoreVertical />
+                    </div>
+                    <div className="lower">
+                        <h4>245Files</h4>
+                        <p>2.0GB Used</p>
+                    </div>
+                </div>
             </div>
         </div>
     )

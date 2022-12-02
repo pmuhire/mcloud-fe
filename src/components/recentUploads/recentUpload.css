@@ -3,7 +3,7 @@
 }
 .recent__uploads h2{
     color: #130f0fd2;
-    font-size: 18px;
+    font-size: 17px;
     margin-left: 15px;
 }
 table{
@@ -11,10 +11,11 @@ table{
     border-radius: 5px;
     border: none;
     padding: 10px;
+    margin-top: -1rem;
 }
 table td,
 table th{
-    background-color: #d6d6d62d;
+    background-color: #d6d6d623;
     color: #252525cb;
     font-size: 1.2rem;
     padding: 10px;
@@ -24,7 +25,4 @@ table th{
 table td{
     text-align: center;
     border-bottom: 1px solid #ccc;
-}
-table td:first-child{
-    font-size: bold;
 }

@@ -4,7 +4,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    background: #ececec;
+    background: #ffffff;
 }
 .dashboard .aside{
     width: 25%;
@@ -25,5 +25,8 @@
     top: 0;
     width: 20%;
     height: 100vh;
-    background: #eee;
+    background: rgb(255, 255, 255);
+}
+a{
+    cursor: pointer;
 }

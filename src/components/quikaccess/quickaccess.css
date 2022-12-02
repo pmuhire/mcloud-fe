@@ -15,8 +15,13 @@
     align-items: center;
     justify-content: space-between;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     line-height: 1rem;
+}
+.quick__access .cards .active{
+    background: #379bffbd;
+    color: #fff;
+    border: 1px solid #379bffbd;
 }
 .quick__access .card p{
     margin-left: -3rem;
