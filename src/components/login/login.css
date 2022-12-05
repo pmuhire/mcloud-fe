@@ -1,0 +1,107 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.login_form .header .logo{
+    display: flex;
+    flex-direction: row;
+}
+/* .login_form .header .logo span{
+    color: #0155aa;
+} */
+.login_form form{
+    border-radius: 10px;
+    width: 80%;
+}
+
+h2{
+    color: #0155aa;
+    font-size: 25px;
+}
+button,
+.btn-signup,
+label,
+h2{
+   background: none;
+}
+a{
+    color: dodgerblue;
+    font-size: 18px;
+    margin-top: 5px;
+}
+form .form-group label{
+    display: block;
+    background: none;
+    padding: 10px 2px;
+    font-size: 23px;
+    color: #525252;
+    background: white;
+}
+form .form-group{
+    width: 100%;
+    background: none;
+}
+.form-control{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background: none;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #525252;
+}
+.form-control:focus{
+    outline: none;
+    border: 2px solid #1e90ff;
+}
+.remember__me{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.remember__me label{
+    padding: 10px 2px;
+    font-size: 23px;
+    color: #525252;
+    background: white;
+}
+p{
+    font-size: 20px;
+    color: #525252;   
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 40%;
+    height: 40px;
+    background: #1e90ff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px 10vw;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background: #1e8fffce;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import "./storage.css";
 import { BiHdd, BiFile, BiExclude, BiVideo } from 'react-icons/bi';
 import { FiImage } from 'react-icons/fi';
-import premium from "../../../public/premium.png"
+// import premium from "../../../public/premprocess.env.PUBLIC_URL+"/profile.jpg"ium.png"
 
 const headerFontStyles = { color: '#1e8fffbb', fontSize: '30px' };
 const iconStyleOne = { color: '#8804e085', fontSize: '20px', paddingLeft: "3px" };
@@ -110,7 +110,7 @@ export default function Storage() {
                 </div>
             </div>
             <div className="premium">
-                <img src={premium} alt="premium" />
+                <img src={process.env.PUBLIC_URL+"/premium.png"} alt="premium" />
                 <h2>Get more space for files</h2>
                 <p>We offer you unlimited storage space for all your needs</p>
                 <button>Upgrade to Pro</button>
