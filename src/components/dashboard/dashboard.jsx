@@ -6,6 +6,7 @@ import Favourites from '../favourites/favourites';
 import QuickAccess from '../quikaccess/QuickAccess';
 import RecentUpload from '../recentUploads/RecentUpload';
 import Storage from '../storage/Storage';
+// import SimpleDialogDemo from '../notification/Notification';
 
 export class Dashboard extends Component {
     render() {

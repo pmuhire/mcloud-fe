@@ -1,0 +1,33 @@
+.notifications-container{
+    width: 250px;
+    position: absolute;
+    left: 9vw;
+    top: 3rem;
+    z-index: 999;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.notifications-container .notifications-card{
+    border-bottom: 1px solid #dad9d9;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.notifications-container .notifications-card h2{
+    font-size: 20px;
+}
+.notifications-card:hover{
+    background: #dad9d9ad;
+}
+.notifications-container .card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.notifications-container .card h2{
+    font-size: 20px;
+}
