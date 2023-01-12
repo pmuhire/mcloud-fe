@@ -1,8 +1,8 @@
 .notifications-container{
-    width: 250px;
+    width: 270px;
     position: absolute;
     left: 9vw;
-    top: 3rem;
+    top: 4.5rem;
     z-index: 999;
     background-color: #ffffff;
     padding: 10px;

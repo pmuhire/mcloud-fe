@@ -6,7 +6,6 @@ import Favourites from '../favourites/favourites';
 import QuickAccess from '../quikaccess/QuickAccess';
 import RecentUpload from '../recentUploads/RecentUpload';
 import Storage from '../storage/Storage';
-// import SimpleDialogDemo from '../notification/Notification';
 
 export class Dashboard extends Component {
     render() {
@@ -16,10 +15,10 @@ export class Dashboard extends Component {
                     <Sidebar />
                 </section>
                 <section className='content'>
-                   <Navbar />
-                   <Favourites />
-                   <QuickAccess />
-                   <RecentUpload />
+                    <Navbar />
+                    <Favourites />
+                    <QuickAccess />
+                    <RecentUpload />
                 </section>
                 <section className='storage'>
                     <Storage />

@@ -2,11 +2,12 @@ import React from 'react';
 import "./sidebar.css";
 import Profile from '../profile';
 import FileUpload from '../fileUpload';
+import { NavLink } from 'react-router-dom';
 // icons
 import { AiOutlineFolder, AiTwotoneFolder, AiFillDashboard, AiOutlineLogout } from "react-icons/ai";
 import { BiHeart, BiRecycle, BiShareAlt, BiCaretDown } from "react-icons/bi";
 import { WiCloud } from 'react-icons/wi';
-import { FiSettings, FiClock, FiVideo, FiImage, FiFileText } from "react-icons/fi";
+import { FiSettings, FiClock, FiVideo, FiImage, FiFileText, FiStar } from "react-icons/fi";
 
 const headerFontStyles = { color: '#fff', fontSize: '60px' };
 const fontStyles = { color: '#fff', fontSize: '30px', hover: { color: 'dodgerblue' } };
@@ -21,30 +22,29 @@ export default function Sidebar() {
                 </section>
                 <section className='sidebar__links'>
                     <div className="links">
-                        <a href="#"><AiFillDashboard style={fontStyles} />
+                        <NavLink to="/"><AiFillDashboard style={fontStyles} />
                             {/* <span>Dashboard</span> */}
-                        </a>
-                        <a href=""><BiHeart style={fontStyles} />
+                        </NavLink>
+                        <NavLink to="/star"><FiStar style={fontStyles} /></NavLink>
                             {/* <span>Favourites</span> */}
-                        </a>
-                        <a href="#"><AiOutlineFolder style={fontStyles} />
+                        <NavLink><AiOutlineFolder style={fontStyles} />
                             {/* <span>My folder</span> */}
-                        </a>
-                        <a href=""><BiShareAlt style={fontStyles} />
-                            {/* <span>Shared</span> */}
-                        </a>
-                        <a href=""><BiRecycle style={fontStyles} />
+                        </NavLink>
+
+                        <NavLink to="/shared"><BiShareAlt style={fontStyles} /></NavLink>
+
+                        <NavLink to="/bin"><BiRecycle style={fontStyles} />
                             {/* <span>Recycle bin</span> */}
-                        </a>
-                        <a href=""><FiSettings style={fontStyles} />
+                        </NavLink>
+                        <NavLink to="/settings"><FiSettings style={fontStyles} />
                             {/* <span>Settings</span> */}
-                        </a>
+                        </NavLink>
                     </div>
                     <div className="logout">
                         {/* <a href='#'><BiLogOut /></a> */}
-                        <a href='#'><AiOutlineLogout style={fontStyles} />
+                        <NavLink to="/login"><AiOutlineLogout style={fontStyles} />
                             {/* <span>Logout</span> */}
-                        </a>
+                        </NavLink>
                     </div>
                 </section>
             </main>

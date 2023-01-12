@@ -28,6 +28,14 @@ const Notification = (props) => {
         <h2>Hello this is the first notification</h2>
         <p>Read this Notification carefully</p>
       </div>
+      <div className="notifications-card">
+        <h2>Hello this is the first notification</h2>
+        <p>Read this Notification carefully</p>
+      </div>
+      <div className="notifications-card">
+        <h2>Hello this is the first notification</h2>
+        <p>Read this Notification carefully</p>
+      </div>
     </div>
   );
   if (!isOpen) {
