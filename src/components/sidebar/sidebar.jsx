@@ -11,6 +11,7 @@ import { FiSettings, FiClock, FiVideo, FiImage, FiFileText, FiStar } from "react
 
 const headerFontStyles = { color: '#fff', fontSize: '60px' };
 const fontStyles = { color: '#fff', fontSize: '30px', hover: { color: 'dodgerblue' } };
+
 export default function Sidebar() {
     return (
         <div className='sidebar'>
@@ -22,21 +23,21 @@ export default function Sidebar() {
                 </section>
                 <section className='sidebar__links'>
                     <div className="links">
-                        <NavLink to="/"><AiFillDashboard style={fontStyles} />
+                        <NavLink to="/" className="dash" ><AiFillDashboard style={fontStyles} />
                             {/* <span>Dashboard</span> */}
                         </NavLink>
-                        <NavLink to="/star"><FiStar style={fontStyles} /></NavLink>
-                            {/* <span>Favourites</span> */}
-                        <NavLink><AiOutlineFolder style={fontStyles} />
+                        <NavLink to="/star" className="link-item"><FiStar style={fontStyles} /></NavLink>
+                        {/* <span>Favourites</span> */}
+                        <NavLink className="link-item"><AiOutlineFolder style={fontStyles} />
                             {/* <span>My folder</span> */}
                         </NavLink>
 
-                        <NavLink to="/shared"><BiShareAlt style={fontStyles} /></NavLink>
+                        <NavLink to="/shared" className="link-item"><BiShareAlt style={fontStyles} /></NavLink>
 
-                        <NavLink to="/bin"><BiRecycle style={fontStyles} />
+                        <NavLink to="/bin" className="link-item"><BiRecycle style={fontStyles} />
                             {/* <span>Recycle bin</span> */}
                         </NavLink>
-                        <NavLink to="/settings"><FiSettings style={fontStyles} />
+                        <NavLink to="/settings" className="link-item"><FiSettings style={fontStyles} />
                             {/* <span>Settings</span> */}
                         </NavLink>
                     </div>
@@ -55,7 +56,7 @@ export default function Sidebar() {
                     <ul>
                         <h2>My Document</h2>
                         <li><a href="#"><AiTwotoneFolder /><span>All Folder</span></a></li>
-                        <li><a href="#"><FiClock /><span>Recent File</span><BiCaretDown style={{fontSize: '25px',borderRadius:"5px"}} /></a>
+                        <li><a href="#"><FiClock /><span>Recent File</span><BiCaretDown style={{ fontSize: '25px', borderRadius: "5px" }} /></a>
                             <ul>
                                 <li><a href="#">Hello.docx</a></li>
                                 <li><a href="#">pm.jpg</a></li>

@@ -28,7 +28,7 @@ export default function RecentUpload() {
                 </tr>
                 <tr>
                     <td>
-                        <BiVideo style={iconStyleThree} /><span>BusinessVideo.mp4</span>
+                        <BiVideo style={iconStyleThree} /><span>myvid.mp4</span>
                     </td>
                     <td>134MBS</td>
                     <td>Muhire Patrick</td>

@@ -114,3 +114,50 @@
 .links__section ul li ul li a{
     color: #808080;
 }
+
+@media screen and (max-width: 600px) {
+    .header{
+        display: none;
+    }
+    .sidebar_icons{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .links{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+        height: 95%;
+        position: absolute;
+        bottom: 0;
+        /* background: red; */
+        padding: 10px;
+
+    }
+    .links .link-item{
+        padding-left: 32px;
+        margin-bottom: 0;
+    }
+    .links .dash{
+        margin-bottom: 0;
+    }
+    .header .logo{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo span{
+        color: #fff;
+    }
+    /*  */
+    .section{
+        display: none;
+    }
+    .logout{
+        display: none;
+    }
+}
