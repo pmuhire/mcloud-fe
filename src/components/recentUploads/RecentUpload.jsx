@@ -13,6 +13,7 @@ export default function RecentUpload() {
             <h2>RECENT UPLOAD FILES</h2>
             <table>
                 <tr>
+                    <th>Type</th>
                     <th>Name</th>
                     <th>Size</th>
                     <th>Owner</th>
@@ -20,55 +21,64 @@ export default function RecentUpload() {
                 </tr>
                 <tr>
                     <td>
-                        <BiImage style={iconStyleTwo} /><span>Profile.png</span>
+                    <BiImage style={iconStyleTwo} />
+                    </td>
+                    <td>
+                        Profile.png
                     </td>
                     <td>14 MBS</td>
                     <td>Muhire Patrick</td>
                     <td>January, 24 2022</td>
                 </tr>
                 <tr>
+                    <td><BiVideo style={iconStyleThree} /></td>
                     <td>
-                        <BiVideo style={iconStyleThree} /><span>myvid.mp4</span>
+                        myvid.mp4
                     </td>
                     <td>134MBS</td>
                     <td>Muhire Patrick</td>
                     <td>January, 24 2022</td>
                 </tr>
                 <tr>
+                    <td><BiFile style={iconStyleOne} /></td>
                     <td>
-                        <BiFile style={iconStyleOne} /><span>Hello.docx</span>
+                        Hello.docx
                     </td>
                     <td>134MBS</td>
                     <td>Muhire Patrick</td>
                     <td>January, 24 2022</td>
                 </tr>
                 <tr>
+                    <td><BiExclude style={iconStyleFour} /></td>
                     <td>
-                        <BiExclude style={iconStyleFour} /><span>Hello.docx</span>
+                        Hello.docx
                     </td>
                     <td>134MBS</td>
                     <td>Muhire Patrick</td>
                     <td>January, 24 2022</td>
                 </tr>
                 <tr>
+                    <td><BiFile style={iconStyleOne} /></td>
                     <td>
-                        <BiFile style={iconStyleOne} /><span>Hello.docx</span>
+                        Hello.docx
                     </td>
                     <td>134MBS</td>
                     <td>Muhire Patrick</td>
                     <td>January, 24 2022</td>
                 </tr>
                 <tr>
+                    <td><BiImage style={iconStyleTwo} /></td>
                     <td>
-                        <BiImage style={iconStyleTwo} /><span>Hello.docx</span>
+                        Hello.docx
                     </td>
                     <td>134MBS</td>
                     <td>Muhire Patrick</td>
                     <td>January, 24 2022</td>
                 </tr>
                 <tr>
+                    <td><BiVideo style={iconStyleThree} /></td>
                     <td>
-                        <BiVideo style={iconStyleThree} /><span>Hello.docx</span>
+                        Hello.docx
                     </td>
                     <td>134MBS</td>
                     <td>Muhire Patrick</td>

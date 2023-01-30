@@ -1,11 +1,13 @@
 .recent__uploads {
     width: 100%;
+    margin-top: 30px;
 }
 
 .recent__uploads h2 {
     color: #130f0fd2;
     font-size: 17px;
     margin-left: 15px;
+    margin-bottom: 20px;
 }
 
 table {

@@ -8,7 +8,7 @@ function Favourites() {
     return (
         <div className='favourites'>
             <div className="view__all">
-                <h2>FAVOURITE FOLDER</h2>
+                <h2>Folders</h2>
                 <a href="#">VIEW ALL</a>
             </div>
             <div className="cards">
@@ -56,7 +56,7 @@ function Favourites() {
                         <p>2.0GB Used</p>
                     </div>
                 </div>
-                <div className="card">
+                {/* <div className="card">
                     <div className="upper">
                         <FiFolder style={styles} />
                         <p>Foto Pantai</p>
@@ -99,7 +99,7 @@ function Favourites() {
                         <h4>245Files</h4>
                         <p>2.0GB Used</p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

@@ -17,7 +17,7 @@ export class Dashboard extends Component {
                 <section className='content'>
                     <Navbar />
                     <Favourites />
-                    <QuickAccess />
+                    {/* <QuickAccess /> */}
                     <RecentUpload />
                 </section>
                 <section className='storage'>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../navbar/navbar';
 import Sidebar from '../sidebar/sidebar';
 import Storage from '../storage/Storage';
 
@@ -9,7 +10,7 @@ const Starred = () => {
                 <Sidebar />
             </section>
             <section className='content'>
-
+               
             </section>
             <section className='storage'>
                 <Storage />

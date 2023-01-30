@@ -18,7 +18,7 @@ export default function Sidebar() {
             <main className='sidebar_icons'>
                 <section className="header">
                     <div className="logo">
-                        <WiCloud style={headerFontStyles} /><span>MCloud</span>
+                        <WiCloud style={headerFontStyles} /><span>Cloud 3</span>
                     </div>
                 </section>
                 <section className='sidebar__links'>

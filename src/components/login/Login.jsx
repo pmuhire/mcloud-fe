@@ -1,8 +1,8 @@
-import React, { useEffect, useState, useRef, useContext } from 'react';
+import React, { useEffect, useState, useRef} from 'react';
 import { Navigate } from 'react-router-dom';
 import "./login.css";
 import { WiCloud } from 'react-icons/wi';
-import { Link, redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import axios from '../../apis/axios';
 const LOGIN_URL = '/login';
 
@@ -63,7 +63,7 @@ const Login = () => {
                 <section className="header">
                     <div className="logo">
                         <h2>Welcome Back to </h2>
-                        <WiCloud style={headerFontStyles} /><h2>MCloud</h2>
+                        <WiCloud style={headerFontStyles} /><h2>Cloud 3</h2>
                     </div>
                 </section>
                 <form onSubmit={handleSubmit}>
